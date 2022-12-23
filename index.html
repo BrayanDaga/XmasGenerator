@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Xmas Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Style -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Merry Xmas Generator</h1>
+        </header>
+
+        <main>
+            <div class="preview">
+                <img id="preview-image" src="images/img_1.png" alt="image" >
+                <img id="preview-text" src="images/txt_1.png" alt="image" >
+                <div class="preview-sender">Augurissimi</div>
+            </div>
+            <div class="controls">
+                <div class="actions">
+                    <button id="change-image" class="button primary-button">
+                        <img src="images/icon-image.png" alt="icon-image" />
+                    </button>
+                    <button id="change-text" class="button primary-button">
+                        <img src="images/icon-text.png" alt="icon-text" />
+                    </button>
+                  
+                </div>
+                <input type="text" id="sender" placeholder="tuo nome" maxlength="22"/>
+                <button id="download" class="button secondary-button"><img src="images/icon-download.png" alt="icon-download"></button>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.1/html-to-image.min.js" integrity="sha512-MxqsGX5PJdw/O0PBFIhewhMncZQF/z0GOEljT4DoYDzV3jXv78jsvjH49/KMy9MlusuvSF3t9FLpVyYKOstWDg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
